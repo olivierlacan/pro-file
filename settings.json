@@ -1,0 +1,103 @@
+{
+  "editor.tokenColorCustomizations": {
+    "keywords": "#EBEFF5",
+    "types": "#FF1675",
+    "variables": "#FF1675",
+    "textMateRules": [
+      // Pink
+      {
+        "scope": [
+          "entity.name.type.class.ruby", // Ruby Class
+          "entity.name.tag.yaml", // Yaml Tag Name
+          "meta.embedded.line.erb", // ERB 
+          "source.ruby", // Ruby basic calls
+          "keyword.control.pseudo-method.ruby", // Ruby method call
+          "support.function.core.ruby", // Ruby function call
+          "entity.name.function.ruby", // Ruby entity function call
+          "entity.other.attribute-name.html", // HTML attribute name
+          "entity.other.attribute-name.class.css", // CSS class name
+          "support.function.misc.css", // CSS function name
+          "entity.name.function.js", // JS function name
+          "entity.name.function.member" // JS function member name
+        ],
+        "settings": {
+          "foreground": "#FF1675",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.inherited-class.ruby", // Ruby Inherited Class
+          "entity.name.type", // Type
+          "support.class", // Ruby Module
+        ],
+        "settings": {
+          "foreground": "#FF1675",
+          "fontStyle": ""
+        }
+      },
+      // White
+      {
+        "scope": [
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator.object.ruby",
+          "constant.numeric",
+          "constant.numeric.ruby",
+          "constant.language.symbol.ruby",
+          "constant.language.ruby",
+          "keyword.other.unit",
+          "string.regexp.js",
+          "punctuation.section.embedded.begin.erb" // ERB tag start
+        ],
+        "settings": {
+          "foreground": "#EBEFF5",
+        }
+      },
+      // Blue
+      {
+        "scope": [
+          "string.quoted.double.ruby",
+          "string.quoted.single.ruby",
+          "string.unquoted.plain.out.yaml",
+          "string.quoted.double.yaml",
+          "string.quoted.double.html",
+          "string.quoted.double.js",
+          "string.quoted.single.js",
+          "variable.other.ruby"
+        ],
+        "settings": {
+          "foreground": "#00A3FF",
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.ruby",
+          "constant.language.symbol.hashkey.ruby"
+        ],
+        "settings": {
+          "foreground": "#00A3FF",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#828486",
+        }
+      },
+      {
+        "scope": [
+          "punctuation.separator.inheritance.ruby",
+          "punctuation.definition.constant.ruby",
+          "keyword.operator.assignment.augmented.ruby"
+        ],
+        "settings": {
+          "foreground": "#FFC942",
+        }
+      },
+      // punctuation.separator.inheritance.ruby
+    ]
+  },
+  "window.zoomLevel": 1
+}
